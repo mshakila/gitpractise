@@ -7,4 +7,7 @@ def multiplication(a,b):
 
 def subtract(m,n):
     return a-b
-    
+
+def division(a,b):
+    print(f"quotient is {a/b}")
+    return a/b
