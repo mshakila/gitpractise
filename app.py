@@ -11,9 +11,14 @@ def multiplication(a,b):
 #subtract
 def subtract(m,n):
     return a-b
-
-    
+ 
 # division
 def division(a,b):
     print(f"quotient is {a/b}")
     return a/b
+
+# find quotient & reminder
+def quotient_reminder(a,b):
+    quotient = a // b
+    reminder = a % b
+    print(f"Quotient is: {quotient}  \nReminder is: {reminder}")
